@@ -16,6 +16,8 @@ if (version_compare(PHP_VERSION, JOOMLA_MINIMUM_PHP, '<'))
 	die('Your host needs to use PHP ' . JOOMLA_MINIMUM_PHP . ' or higher to run this version of Joomla!');
 }
 
+Новая трока
+
 /**
  * Constant that is checked in included files to prevent direct access.
  * define() is used in the installation folder rather than "const" to not error for PHP 5.2 and lower
